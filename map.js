@@ -4,7 +4,7 @@ map.set(1,'nest')
 .set(2,'undefined')
 .set('th','data');
 
-/*console.log(map);
+console.log(map);
 
 //value
 console.log(map.get(1));
@@ -14,14 +14,33 @@ console.log(map.has(2));
 //delete
 map.delete(2);
 
-map.clear();*/
+map.clear();
 //size
-//console.log(map.size);
+console.log(map.size);
 
-//for(key of map){
-  //  console.log(key);
-//}
+for(key of map){
+    console.log(key);
+}
 
 for(key of map.values()){
     console.log(key);
+}
+
+//sets 
+
+let set= new Set();
+set.add('data')
+  add('data')
+set.add(456)
+
+//delete
+set.delete('data')
+
+set.clear();
+
+console.log(set.size);
+console.log(set);
+
+for(s of set){
+  console.log(s);
 }
