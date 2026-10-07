@@ -15,3 +15,16 @@ else{
 
 person = "student";
 console.log(person);
+
+////
+let mark = 85;
+
+if (mark >= 90) {
+    console.log("A+");
+} else if (mark >= 80) {
+    console.log("A");
+} else if (mark >= 70) {
+    console.log("B");
+} else {
+    console.log("C");
+}
