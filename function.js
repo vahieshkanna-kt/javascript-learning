@@ -1,6 +1,6 @@
 //function declaration
 
-function data(a, b){
+/*function data(a, b){
     console.log(a+b)
 
 }
@@ -62,3 +62,47 @@ const result = outer();
 result();
 result();
 result();
+
+
+//Higher order function
+//A function can receive another function or return another function
+function message(name, callback) {
+
+    console.log("Hello " + name);
+
+    callback();
+}
+
+function welcome() {
+    console.log("Welcome to JavaScript");
+}
+
+message("ragav", welcome);
+
+//map ,filter ,reduce
+
+//map() creates a new array by performing an operation on every element
+
+let numbers = [1, 2, 3, 4, 5];
+
+let result = numbers.map(function(num) {
+    return num * 2;
+});
+
+console.log(result);
+
+//filter() creates a new array containing only elements that satisfy a condition
+
+let marks = [35, 80, 45, 90, 25];
+
+let passed = marks.filter(mark => mark >= 50);
+
+console.log(passed);*/
+
+//reduce() combines all array elements into a single value
+
+let cart = [500, 200, 300];
+
+let total = cart.reduce((sum, price) => sum + price, 0);
+
+console.log("Total bill:", total);

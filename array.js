@@ -1,10 +1,10 @@
 //array
-//let car=[];
+let car=[];
 
-//let car = ['shift','BMW'];
+let car = ['shift','BMW'];
 
 
-/*console.log(car);
+console.log(car);
 
 //index
 let car= ['shift','BMW','true','undefined'];
@@ -26,7 +26,7 @@ console.log(car.pop());
 
 console.log(car.shift());
 
-console.log(car)*/
+console.log(car)
 
 //for loop word
 
@@ -47,3 +47,4 @@ let mat = [
 ]
 
 console.log(mat);
+
