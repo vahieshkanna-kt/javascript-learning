@@ -1,0 +1,30 @@
+//this keyword
+//The this keyword refers to the object associated with the function call
+let car = {
+    brand: "BMW",
+    model: "X5",
+
+    show: function() {
+        console.log(this.brand);
+        console.log(this.model);
+    }
+};
+
+car.show();
+
+//prototype
+//JavaScript allows objects to reuse properties and methods from other objects
+let animal = {
+    eat: function() {
+        console.log("Animal is eating");
+    }
+};
+
+let dog = Object.create(animal);
+
+dog.bark = function() {
+    console.log("Dog is barking");
+};
+
+dog.eat();
+dog.bark();
